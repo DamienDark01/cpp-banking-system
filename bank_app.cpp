@@ -34,7 +34,19 @@ public:
     }
   }
 
-  
+  void getPreviousTransaction() {
+    if (previousTransaction > 0) {
+      cout << "Deposited : " << previousTransaction << endl;
+    } else if (previousTransaction < 0) {
+      cout << "Withdrawn : " << previousTransaction << endl;
+    } else {
+      cout << "No transaction has occured" << endl;
+    }
+  }
+
+  void showMenu() {
+    
+  }
 };
 
 int main(void) {}
