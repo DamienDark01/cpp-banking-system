@@ -45,7 +45,20 @@ public:
   }
 
   void showMenu() {
-    
+    char option;
+
+    cout << endl;
+    cout << "Welcome " << customerName << "!" << endl;
+    cout << "Your Bank ID : " << customerId << endl;
+    cout << "A. Check balance" << andl;
+    cout << "B. Deposit" << endl;
+    cout << "C. Withdraw" << endl;
+    cout << "D. Check previous transaction" << endl;
+    cout << "E. Exit" << endl;
+    cout << "====================================" << endl;
+    cout << "Enter an option : ";
+    cin >> option;
+    cout << "====================================" << endl;
   }
 };
 
