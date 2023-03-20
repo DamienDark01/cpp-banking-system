@@ -1,1 +1,1 @@
-# cpp_banking_system
+# cpp-banking-system
