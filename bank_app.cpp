@@ -50,7 +50,7 @@ public:
     cout << endl;
     cout << "Welcome " << customerName << "!" << endl;
     cout << "Your Bank ID : " << customerId << endl;
-    cout << "A. Check balance" << andl;
+    cout << "A. Check balance" << endl;
     cout << "B. Deposit" << endl;
     cout << "C. Withdraw" << endl;
     cout << "D. Check previous transaction" << endl;
@@ -62,6 +62,4 @@ public:
   }
 };
 
-int main(void) {
-  
-}
+int main(void) {}
