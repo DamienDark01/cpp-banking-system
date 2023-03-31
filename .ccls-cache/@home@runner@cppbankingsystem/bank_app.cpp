@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -38,7 +39,7 @@ public:
     if (previousTransaction > 0) {
       cout << "Deposited : " << previousTransaction << endl;
     } else if (previousTransaction < 0) {
-      cout << "Withdrawn : " << previousTransaction << endl;
+      cout << "Withdrawn : " << fixed << setprecision(2) << previousTransaction << endl;
     } else {
       cout << "No transaction has occured" << endl;
     }
