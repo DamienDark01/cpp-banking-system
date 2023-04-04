@@ -3,6 +3,7 @@
 #include <string>
 #include <iomanip>
 
+// namespaces for functionalities
 using namespace std;
 
 class BankAccount {
