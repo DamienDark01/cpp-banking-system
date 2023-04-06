@@ -6,6 +6,7 @@
 // namespaces for functionalities
 using namespace std;
 
+// class for the object
 class BankAccount {
 private:
   double balance;
