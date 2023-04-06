@@ -8,6 +8,7 @@ using namespace std;
 
 // class for the object
 class BankAccount {
+// private variables
 private:
   double balance;
   double previousTransaction;
