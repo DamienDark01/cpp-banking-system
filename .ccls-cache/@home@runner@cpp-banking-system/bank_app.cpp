@@ -17,6 +17,7 @@ private:
 
 // public varibales and methods
 public:
+  // constructor
   BankAccount(string cName, string cId) {
     customerName = cName;
     customerId = cId;
