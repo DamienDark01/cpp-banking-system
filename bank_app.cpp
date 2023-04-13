@@ -8,14 +8,14 @@ using namespace std;
 
 // class for the object
 class BankAccount {
-// private variables
+// private variables and methods
 private:
   double balance;
   double previousTransaction;
   string customerName;
   string customerId;
 
-// public varibales
+// public varibales and methods
 public:
   BankAccount(string cName, string cId) {
     customerName = cName;
