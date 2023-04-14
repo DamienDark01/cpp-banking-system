@@ -24,7 +24,7 @@ public:
     customerId = cId;
   }
 
-  // method for deposit
+  // method for deposit process
   void deposit(double amount) {
     if (amount != 0.0) {
       balance += amount;
@@ -34,6 +34,7 @@ public:
     }
   }
 
+  // method for withdraw process
   void withdraw(double amount) {
     if (amount != 0.0) {
       balance -= amount;
