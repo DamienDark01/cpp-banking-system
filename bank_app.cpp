@@ -19,10 +19,12 @@ private:
 public:
   // constructor
   BankAccount(string cName, string cId) {
+    // assinging parameters to private varibales
     customerName = cName;
     customerId = cId;
   }
 
+  // method for deposit
   void deposit(double amount) {
     if (amount != 0.0) {
       balance += amount;
