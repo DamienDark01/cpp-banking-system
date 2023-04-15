@@ -26,11 +26,12 @@ public:
 
   // method for deposit process
   void deposit(double amount) {
-    // checking if the amount entered is null
+    // checking if the amount entered is not null
     if (amount != 0.0) {
       balance += amount;
       previousTransaction = amount;
     } else {
+      // displaying the required message if the entered value is null
       cout << "No changes were made!" << endl;
     }
   }
