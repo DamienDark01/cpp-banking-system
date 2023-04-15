@@ -28,6 +28,7 @@ public:
   void deposit(double amount) {
     // checking if the amount entered is not null
     if (amount != 0.0) {
+      // adding the entered amount to the balance
       balance += amount;
       previousTransaction = amount;
     } else {
