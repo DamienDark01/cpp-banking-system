@@ -26,6 +26,7 @@ public:
 
   // method for deposit process
   void deposit(double amount) {
+    // checking if the amount entered is null
     if (amount != 0.0) {
       balance += amount;
       previousTransaction = amount;
