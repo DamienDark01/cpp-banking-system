@@ -39,7 +39,9 @@ public:
 
   // method for withdraw process
   void withdraw(double amount) {
+    // checking if the amount entered is not null
     if (amount != 0.0) {
+      
       balance -= amount;
       previousTransaction = amount;
     } else {
