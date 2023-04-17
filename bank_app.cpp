@@ -41,7 +41,7 @@ public:
   void withdraw(double amount) {
     // checking if the amount entered is not null
     if (amount != 0.0) {
-      
+      // deducting the entered amount from the balance
       balance -= amount;
       previousTransaction = amount;
     } else {
