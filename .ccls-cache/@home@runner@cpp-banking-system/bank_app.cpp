@@ -1,21 +1,21 @@
 // preprocessor directives
+#include <iomanip>
 #include <iostream>
 #include <string>
-#include <iomanip>
 
 // namespaces for functionalities
 using namespace std;
 
 // class for the object
 class BankAccount {
-// private variables and methods
+  // private variables and methods
 private:
   double balance;
   double previousTransaction;
   string customerName;
   string customerId;
 
-// public varibales and methods
+  // public varibales and methods
 public:
   // constructor
   BankAccount(string cName, string cId) {
@@ -30,6 +30,8 @@ public:
     if (amount != 0.0) {
       // adding the entered amount to the balance
       balance += amount;
+
+      // assigning the current amount to previous transaction
       previousTransaction = amount;
     } else {
       // displaying the required message if the entered value is null
@@ -53,7 +55,8 @@ public:
     if (previousTransaction > 0) {
       cout << "Deposited : " << previousTransaction << endl;
     } else if (previousTransaction < 0) {
-      cout << "Withdrawn : " << fixed << setprecision(2) << previousTransaction << endl;
+      cout << "Withdrawn : " << fixed << setprecision(2) << previousTransaction
+           << endl;
     } else {
       cout << "No transaction has occured" << endl;
     }
