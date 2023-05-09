@@ -45,8 +45,10 @@ public:
     if (amount != 0.0) {
       // deducting the entered amount from the balance
       balance -= amount;
+      // setting the input amount as the previous transaction
       previousTransaction = amount;
     } else {
+      // output
       cout << "No changes were made!" << endl;
     }
   }
