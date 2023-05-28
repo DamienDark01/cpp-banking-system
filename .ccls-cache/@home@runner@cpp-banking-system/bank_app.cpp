@@ -53,6 +53,7 @@ public:
     }
   }
 
+  // method to dispaly the prevoius transaction
   void getPreviousTransaction() {
     if (previousTransaction > 0) {
       cout << "Deposited : " << previousTransaction << endl;
