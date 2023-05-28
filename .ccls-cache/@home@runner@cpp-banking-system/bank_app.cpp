@@ -57,6 +57,7 @@ public:
   void getPreviousTransaction() {
     // checking if the prevoius transaction is zero
     if (previousTransaction > 0) {
+      // output
       cout << "Deposited : " << previousTransaction << endl;
     } else if (previousTransaction < 0) {
       cout << "Withdrawn : " << fixed << setprecision(2) << previousTransaction
