@@ -55,6 +55,7 @@ public:
 
   // method to dispaly the prevoius transaction
   void getPreviousTransaction() {
+    // checking if the prevoius transaction is zero
     if (previousTransaction > 0) {
       cout << "Deposited : " << previousTransaction << endl;
     } else if (previousTransaction < 0) {
