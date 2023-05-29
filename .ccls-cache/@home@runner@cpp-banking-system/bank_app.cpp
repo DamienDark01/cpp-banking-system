@@ -59,7 +59,9 @@ public:
     if (previousTransaction > 0) {
       // output
       cout << "Deposited : " << previousTransaction << endl;
-    } else if (previousTransaction < 0) {
+    } // checking if the previous transaction is greater than 0
+    else if (previousTransaction < 0) {
+      
       cout << "Withdrawn : " << fixed << setprecision(2) << previousTransaction
            << endl;
     } else {
