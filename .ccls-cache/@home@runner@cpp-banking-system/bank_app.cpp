@@ -61,7 +61,7 @@ public:
       cout << "Deposited : " << previousTransaction << endl;
     } // checking if the previous transaction is greater than 0
     else if (previousTransaction < 0) {
-      
+      // output
       cout << "Withdrawn : " << fixed << setprecision(2) << previousTransaction
            << endl;
     } else {
