@@ -65,6 +65,7 @@ public:
       cout << "Withdrawn : " << fixed << setprecision(2) << previousTransaction
            << endl;
     } else {
+      // output
       cout << "No transaction has occured" << endl;
     }
   }
