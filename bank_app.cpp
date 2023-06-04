@@ -70,6 +70,7 @@ public:
     }
   }
 
+  // method to display the menu
   void showMenu() {
     char option;
 
