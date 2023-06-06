@@ -72,6 +72,7 @@ public:
 
   // method to display the menu
   void showMenu() {
+    // variable to hold the input
     char option;
 
     // output
