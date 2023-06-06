@@ -74,6 +74,7 @@ public:
   void showMenu() {
     char option;
 
+    // output
     cout << endl;
     cout << "Welcome " << customerName << "!" << endl;
     cout << "Your Bank ID : " << customerId << endl;
